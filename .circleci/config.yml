@@ -9,6 +9,7 @@ jobs:
     steps:
       - checkout
       - platformio-orb/compile
+      - platformio-orb/publish
 
 workflows:
   version: 2
