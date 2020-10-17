@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  platformio-orb: gbusch/platformio-orb@0.1.2
+  platformio-orb: gbusch/platformio-orb@0.2.0
 
 jobs:
   compilation:
