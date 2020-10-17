@@ -1,9 +1,11 @@
 version: 2.1
+
 orbs:
   platformio-orb: gbusch/platformio-orb@0.1.0
 
 jobs:
-  compile:
+  compilation:
+    executor: platformio-orb/default
     steps:
       - checkout
       - platformio-orb/run
