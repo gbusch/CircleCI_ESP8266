@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "config.h"
 
 void setup() {
 }
@@ -14,7 +15,6 @@ void blinkNTimes(int n) {
 }
 
 void loop() {
-  int n = 8;
   blinkNTimes(n);
   delay(2000);
 }
