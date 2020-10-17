@@ -1,8 +1,9 @@
 version: 2.1
 orbs:
   platformio-orb: gbusch/platformio-orb@0.1.0
-workflows:
-  welcome:
-    jobs:
+
+jobs:
+  compile:
+    steps:
       - checkout
       - platformio-orb/run
