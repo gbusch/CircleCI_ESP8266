@@ -8,7 +8,7 @@ jobs:
     executor: platformio-orb/default
     steps:
       - checkout
-      - platformio-orb/run
+      - platformio-orb/Compile
 
 workflows:
   version: 2
