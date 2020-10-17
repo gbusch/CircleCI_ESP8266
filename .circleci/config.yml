@@ -9,3 +9,9 @@ jobs:
     steps:
       - checkout
       - platformio-orb/run
+
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - compilation
